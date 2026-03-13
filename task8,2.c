@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int sum_range(int first,int last){
+    int sum=0;
+for(int i=first;i<=last;i+=2)
+if(i %2 ==0)
+sum+=i;
+
+return sum;
+}
+
+int main(){
+int first,last;
+printf("Enter first number:");
+scanf("%d",&first);
+printf("Enter last number:");
+scanf("%d",&last);
+printf("sum %d\n",sum_range(first,last));
+
+    return 0;
+}
