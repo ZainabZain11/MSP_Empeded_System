@@ -5,13 +5,13 @@ int even(int num){
  
 }
 
-
 int main(){
 int num ;
 printf("Enter any number:");
 scanf("%d",&num);
 even(num)?printf("%d\n even number",num):printf("%d\n odd number",num);
 return 0;
+
 
 
 }
