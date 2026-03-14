@@ -5,7 +5,7 @@ int sum_range(int first,int last){
 for(int i=first;i<=last;i+=2)
 if(i %2 ==0)
 sum+=i;
-
+first ++;
 return sum;
 }
 
